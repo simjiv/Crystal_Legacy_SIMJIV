@@ -1382,6 +1382,7 @@ JohtoGrassWildMons:
 	db 14, SNUBBULL
 	db 13, GRIMER
 	db 14, JIGGLYPUFF
+	db 12, FARFETCH_D
 	db 10, DITTO
 	db 10, DITTO
 	; day
@@ -1390,6 +1391,7 @@ JohtoGrassWildMons:
 	db 14, SNUBBULL
 	db 13, GRIMER
 	db 14, JIGGLYPUFF
+	db 12, FARFETCH_D
 	db 10, DITTO
 	db 10, DITTO
 	; nite
