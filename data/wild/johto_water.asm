@@ -126,6 +126,7 @@ JohtoWaterWildMons:
 	db 20, TENTACOOL
 	db 15, TENTACOOL
 	db 20, TENTACRUEL
+	db 20, SEEL
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_30
@@ -154,6 +155,8 @@ JohtoWaterWildMons:
 	db 20, TENTACOOL
 	db 15, TENTACOOL
 	db 20, TENTACRUEL
+	db 18, SEEL
+	db 20, SEEL
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_35
