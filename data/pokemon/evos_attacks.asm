@@ -1287,8 +1287,9 @@ SeelEvosAttacks:
 	db 5, GROWL
 	db 5, WATER_GUN
 	db 16, AURORA_BEAM
-	db 21, REST
+	db 21, ENCORE
 	db 25, BUBBLEBEAM
+	db 29, REST
 	db 32, TAKE_DOWN
 	db 37, ICE_BEAM
 	db 48, SAFEGUARD
@@ -1317,11 +1318,14 @@ GrimerEvosAttacks:
 	db 1, POUND
 	db 5, HARDEN
 	db 10, DISABLE
+	db 14, MUD_SLAP
 	db 16, SLUDGE
+	db 20, LICK
 	db 23, MINIMIZE
-	db 31, SCREECH
+	db 27, SCREECH
 	db 38, SLUDGE_BOMB
-	db 45, ACID_ARMOR
+	db 45, TOXIC
+	db 50, RECOVER
 	db 0 ; no more level-up moves
 
 MukEvosAttacks:
@@ -1329,14 +1333,16 @@ MukEvosAttacks:
 	; moves are not sorted by level
 	db 1, POISON_GAS
 	db 1, POUND
-	db 1, HARDEN
-	db 33, HARDEN
-	db 37, DISABLE
-	db 45, SLUDGE
+	db 5, HARDEN
+	db 10, DISABLE
+	db 14, MUD_SLAP
+	db 16, SLUDGE
+	db 20, LICK
 	db 23, MINIMIZE
-	db 31, SCREECH
+	db 27, SCREECH
 	db 38, SLUDGE_BOMB
-	db 45, ACID_ARMOR
+	db 45, TOXIC
+	db 50, RECOVER
 	db 0 ; no more level-up moves
 
 ShellderEvosAttacks:
@@ -3245,10 +3251,13 @@ TeddiursaEvosAttacks:
 	db 8, LICK
 	db 15, FURY_SWIPES
 	db 22, FAINT_ATTACK
-	db 29, REST
+	db 30, REST
+	db 32, SNORE
+	db 34, SLEEP TALK
 	db 36, SLASH
-	db 43, SNORE
-	db 45, THRASH
+	db 40, BITE
+	db 45, SUBMISSION
+	db 50, THRASH
 	db 0 ; no more level-up moves
 
 UrsaringEvosAttacks:
@@ -3260,9 +3269,11 @@ UrsaringEvosAttacks:
 	db 8, LICK
 	db 15, FURY_SWIPES
 	db 22, FAINT_ATTACK
-	db 29, REST
-	db 34, SNORE
-	db 39, SLASH
+	db 30, REST
+	db 32, SNORE
+	db 34, SLEEP TALK
+	db 36, SLASH
+	db 40, CRUNCH
 	db 45, SUBMISSION
 	db 50, THRASH
 	db 0 ; no more level-up moves
@@ -3271,9 +3282,10 @@ SlugmaEvosAttacks:
 	db EVOLVE_LEVEL, 27, MAGCARGO
 	db 0 ; no more evolutions
 	db 1, SMOG
+	db 1, SMOKESCREEN
 	db 8, EMBER
 	db 15, ROCK_THROW
-	db 22, HARDEN
+	db 18, HARDEN
 	db 25, FLAME_WHEEL
 	db 29, AMNESIA
 	db 36, FLAMETHROWER
@@ -3284,11 +3296,12 @@ SlugmaEvosAttacks:
 MagcargoEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SMOG
+	db 1, SMOKESCREEN
 	db 1, EMBER
 	db 1, ROCK_THROW
 	db 8, EMBER
 	db 15, ROCK_THROW
-	db 22, HARDEN
+	db 18, HARDEN
 	db 25, FLAME_WHEEL
 	db 29, AMNESIA
 	db 36, FLAMETHROWER
@@ -3339,6 +3352,7 @@ CorsolaEvosAttacks:
 	db 25, BUBBLEBEAM
 	db 31, SPIKE_CANNON
 	db 37, MIRROR_COAT
+	db 40, ENDURE
 	db 45, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
@@ -3399,6 +3413,7 @@ SkarmoryEvosAttacks:
 	db 31, STEEL_WING
 	db 37, FURY_ATTACK
 	db 41, DRILL_PECK
+	db 47, SHARPEN
 	db 0 ; no more level-up moves
 
 	HoundourEvosAttacks:
