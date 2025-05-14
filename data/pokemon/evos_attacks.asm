@@ -627,9 +627,12 @@ OddishEvosAttacks:
 	db 14, POISONPOWDER
 	db 16, STUN_SPORE
 	db 18, SLEEP_POWDER
-	db 23, ACID
-	db 32, MOONLIGHT
-	db 39, PETAL_DANCE
+	db 21, MEGA_DRAIN
+	db 24, ACID
+	db 32, GIGA_DRAIN
+	db 35, MOONLIGHT
+	db 38, SLUDGE_BOMB
+	db 44, PETAL_DANCE
 	db 0 ; no more level-up moves
 
 GloomEvosAttacks:
@@ -647,6 +650,7 @@ GloomEvosAttacks:
 	db 24, ACID
 	db 32, GIGA_DRAIN
 	db 35, MOONLIGHT
+	db 38, SLUDGE_BOMB
 	db 44, PETAL_DANCE
 	db 0 ; no more level-up moves
 
@@ -663,7 +667,7 @@ VileplumeEvosAttacks:
 	db 24, ACID
 	db 32, GIGA_DRAIN
 	db 35, MOONLIGHT
-	db 40, GIGA_DRAIN
+	db 38, SLUDGE_BOMB
 	db 44, PETAL_DANCE
 	db 0 ; no more level-up moves
 
@@ -673,6 +677,7 @@ ParasEvosAttacks:
 	db 1, SCRATCH
 	db 5, ABSORB
 	db 7, STUN_SPORE
+	db 10, LEECH_SEED
 	db 13, POISONPOWDER
 	db 16, MEGA_DRAIN
 	db 19, LEECH_LIFE
@@ -680,15 +685,15 @@ ParasEvosAttacks:
 	db 31, SLASH
 	db 36, GROWTH
 	db 40, GIGA_DRAIN
+	db 45, VICEGRIP
 	db 0 ; no more level-up moves
 
 ParasectEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 5, ABSORB
-	db 1, STUN_SPORE
-	db 1, POISONPOWDER
 	db 7, STUN_SPORE
+	db 10, LEECH_SEED
 	db 13, POISONPOWDER
 	db 16, MEGA_DRAIN
 	db 19, LEECH_LIFE
@@ -696,10 +701,11 @@ ParasectEvosAttacks:
 	db 31, SLASH
 	db 36, GROWTH
 	db 40, GIGA_DRAIN
+	db 45, VICEGRIP
 	db 0 ; no more level-up moves
 
 VenonatEvosAttacks:
-	db EVOLVE_LEVEL, 31, VENOMOTH
+	db EVOLVE_LEVEL, 28, VENOMOTH
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, DISABLE
@@ -708,8 +714,8 @@ VenonatEvosAttacks:
 	db 13, LEECH_LIFE
 	db 17, CONFUSION
 	db 20, POISONPOWDER
-	db 28, STUN_SPORE
-	db 33, PSYBEAM
+	db 26, STUN_SPORE
+	db 31, PSYBEAM
 	db 36, SLEEP_POWDER
 	db 41, PSYCHIC_M
 	db 0 ; no more level-up moves
@@ -724,12 +730,12 @@ VenomothEvosAttacks:
 	db 17, CONFUSION
 	db 20, POISONPOWDER
 	db 25, LEECH_LIFE
-	db 28, STUN_SPORE
-	db 31, GUST
-	db 36, PSYBEAM
-	db 36, PSYBEAM
+	db 26, STUN_SPORE
+	db 28, GUST
+	db 31, PSYBEAM
+	db 38, SLEEP_POWDER
 	db 43, SLUDGE_BOMB
-	db 52, PSYCHIC_M
+	db 50, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 DiglettEvosAttacks:
@@ -765,12 +771,17 @@ MeowthEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, GROWL
-	db 11, BITE
+	db 1, BITE
+	db 10, CHARM
+	db 16, THIEF
 	db 20, PAY_DAY
-	db 28, FAINT_ATTACK
-	db 35, SCREECH
-	db 41, FURY_SWIPES
-	db 46, SLASH
+	db 24, FURY_SWIPES
+	db 28, SLASH
+	db 33, FAINT_ATTACK
+	db 38, SCREECH
+	db 41, SWAGGER
+	db 46, DOUBLE_EDGE
+	db 50, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 PersianEvosAttacks:
@@ -778,12 +789,14 @@ PersianEvosAttacks:
 	db 1, SCRATCH
 	db 1, GROWL
 	db 1, BITE
-	db 11, BITE
+	db 10, CHARM
+	db 16, THIEF
 	db 20, PAY_DAY
-	db 28, FAINT_ATTACK
-	db 33, SLASH
+	db 24, FURY_SWIPES
+	db 28, SLASH
+	db 33, FAINT_ATTACK
 	db 38, SCREECH
-	db 41, FURY_SWIPES
+	db 41, SWAGGER
 	db 46, DOUBLE_EDGE
 	db 50, HYPER_BEAM
 	db 0 ; no more level-up moves
