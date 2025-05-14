@@ -23,7 +23,7 @@ Moves:
 	move ICE_PUNCH,    EFFECT_FREEZE_HIT,         75, ICE,          100, 15,  10
 	move THUNDERPUNCH, EFFECT_PARALYZE_HIT,       75, ELECTRIC,     100, 15,  10
 	move SCRATCH,      EFFECT_NORMAL_HIT,         35, NORMAL,       100, 35,   0
-	move VICEGRIP,     EFFECT_NORMAL_HIT,         55, NORMAL,       100, 30,   0
+	move VICEGRIP,     EFFECT_NORMAL_HIT,         70, BUG,       	100, 15,   0
 	move GUILLOTINE,   EFFECT_OHKO,                0, NORMAL,        30,  5,   0
 	move RAZOR_WIND,   EFFECT_RAZOR_WIND,         80, NORMAL,        95, 15,   0
 	move SWORDS_DANCE, EFFECT_ATTACK_UP_2,         0, NORMAL,       100, 30,   0
@@ -140,10 +140,10 @@ Moves:
 	move BONE_CLUB,    EFFECT_FLINCH_HIT,         65, GROUND,       100, 20,  10
 	move FIRE_BLAST,   EFFECT_BURN_HIT,          120, FIRE,          85,  5,  10
 	move WATERFALL,    EFFECT_FLINCH_HIT,         70, WATER,        100, 15,   30
-	move CLAMP,        EFFECT_TRAP_TARGET,        35, WATER,        100, 10,   0
+	move CLAMP,        EFFECT_TRAP_TARGET,        50, WATER,        100, 10,   0
 	move SWIFT,        EFFECT_ALWAYS_HIT,         60, NORMAL,       100, 20,   0
 	move SKULL_BASH,   EFFECT_SKULL_BASH,        100, NORMAL,       100, 15,   0
-	move SPIKE_CANNON, EFFECT_MULTI_HIT,          22, STEEL,        100, 15,   0
+	move SPIKE_CANNON, EFFECT_MULTI_HIT,          30, STEEL,        100, 15,   0
 	move CONSTRICT,    EFFECT_SPEED_DOWN_HIT,     10, NORMAL,       100, 35,  10
 	move AMNESIA,      EFFECT_SP_DEF_UP_2,         0, PSYCHIC_TYPE, 100, 20,   0
 	move KINESIS,      EFFECT_ACCURACY_DOWN,       0, PSYCHIC_TYPE,  80, 15,   0
@@ -185,7 +185,7 @@ Moves:
 	move MIND_READER,  EFFECT_LOCK_ON,             0, NORMAL,       100,  5,   0
 	move NIGHTMARE,    EFFECT_NIGHTMARE,           0, GHOST,        100, 15,   0
 	move FLAME_WHEEL,  EFFECT_FLAME_WHEEL,        65, FIRE,         100, 25,  10
-	move SNORE,        EFFECT_SNORE,              40, NORMAL,       100, 15,  30
+	move SNORE,        EFFECT_SNORE,              50, NORMAL,       100, 15,  30
 	move CURSE,        EFFECT_CURSE,               0, CURSE_TYPE,   100, 10,   0
 	move FLAIL,        EFFECT_REVERSAL,            1, NORMAL,       100, 15,   0
 	move CONVERSION2,  EFFECT_CONVERSION2,         0, NORMAL,       100, 30,   0
